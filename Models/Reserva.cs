@@ -54,7 +54,7 @@ namespace DesafioProjetoHospedagem.Models
             // *IMPLEMENTE AQUI* OK
             if (DiasReservados >= 10)
             {
-                valor = (10*(valor))/100 - valor;
+                valor = valor - (10*(valor))/100;
             }
 
             return valor;
